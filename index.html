@@ -1,37 +1,87 @@
-<!DOCTYPE html>
+<!doctype html>
+<!-- Website Template by freewebsitetemplates.com -->
 <html>
 <head>
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <meta name="mobile-web-app-capable" content="yes" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="authorization_endpoint" href="https://indieauth.com/auth">
-  <link rel="token_endpoint" href="https://tokens.indieauth.com/token">
-  <!-- replace the below link with what aperture.p3k.io gives you after signing-in.
-    (Details: https://indieweb.org/Microsub#Getting_Started)
-    In summary:
-    1. sign in to https://aperture.p3k.io/login with your domain
-    2. you will see a <link> tag displayed on your dashboard
-    3. copy that <link> tag that looks like:
-      <link rel="microsub" href="https://aperture.p3k.io/microsub/000">
-      after this HTML comment. -->
-  <link rel="microsub" href="https://aperture.p3k.io/microsub/400">
-  <title>My New Website</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Mustache Enthusiast</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/mobile.css" media="screen and (max-width : 568px)">
+	<script type="text/javascript" src="js/mobile.js"></script>
 </head>
 <body>
-  <h1>My New Website</h1>
-  <div class="h-card">
-    <p>
-      Hi, my name is <span class="p-name">Dylan Petrusma</span> and I am a human on the Internet.
-    </p>
-
-    <p>
-      You can find me on other websites below:
-    </p>
-
-    <ul>
-      <!-- replace _mygithubid_ with your GitHub username -->
-      <li><a class="u-url" href="https://github.com/DPetrusma" rel="me">@DPetrusma</a></li>
-    </ul>
-  </div>
+	<div id="header">
+		<a href="index.html" class="logo">
+			<img src="images/logo.jpg" alt="">
+		</a>
+		<ul id="navigation">
+			<li class="selected">
+				<a href="index.html">home</a>
+			</li>
+			<li>
+				<a href="about.html">about</a>
+			</li>
+			<li>
+				<a href="gallery.html">gallery</a>
+			</li>
+			<li>
+				<a href="blog.html">blog</a>
+			</li>
+			<li>
+				<a href="contact.html">contact</a>
+			</li>
+		</ul>
+	</div>
+	<div id="body">
+		<div id="featured">
+			<img src="images/the-beacon.jpg" alt="">
+			<div>
+				<h2>the beacon to all mankind</h2>
+				<span>Our website templates are created with</span>
+				<span>inspiration, checked for quality and originality</span>
+				<span>and meticulously sliced and coded.</span>
+				<a href="blog-single-post.html" class="more">read more</a>
+			</div>
+		</div>
+		<ul>
+			<li>
+				<a href="gallery.html">
+					<img src="images/the-father.jpg" alt="">
+					<span>the father</span>
+				</a>
+			</li>
+			<li>
+				<a href="gallery.html">
+					<img src="images/the-actor.jpg" alt="">
+					<span>the actor</span>
+				</a>
+			</li>
+			<li>
+				<a href="gallery.html">
+					<img src="images/the-nerd.jpg" alt="">
+					<span>the nerd</span>
+				</a>
+			</li>
+		</ul>
+	</div>
+	<div id="footer">
+		<div>
+			<p>&copy; 2023 by Mustacchio. All rights reserved.</p>
+			<ul>
+				<li>
+					<a href="http://freewebsitetemplates.com/go/twitter/" id="twitter">twitter</a>
+				</li>
+				<li>
+					<a href="http://freewebsitetemplates.com/go/facebook/" id="facebook">facebook</a>
+				</li>
+				<li>
+					<a href="http://freewebsitetemplates.com/go/googleplus/" id="googleplus">googleplus</a>
+				</li>
+				<li>
+					<a href="http://pinterest.com/fwtemplates/" id="pinterest">pinterest</a>
+				</li>
+			</ul>
+		</div>
+	</div>
 </body>
 </html>
