@@ -1,0 +1,50 @@
+{
+  "_from": "sw-rpg-icons",
+  "_id": "sw-rpg-icons@1.7.1",
+  "_inBundle": false,
+  "_integrity": "sha1-Sh/Poz0mquMbzVFmJFfXbu4HNbE=",
+  "_location": "/sw-rpg-icons",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "sw-rpg-icons",
+    "name": "sw-rpg-icons",
+    "escapedName": "sw-rpg-icons",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/sw-rpg-icons/-/sw-rpg-icons-1.7.1.tgz",
+  "_shasum": "4a1fcfa33d26aae31bcd51662457d76eee0735b1",
+  "_spec": "sw-rpg-icons",
+  "_where": "C:\\Users\\dipic",
+  "author": {
+    "name": "Alexander Boutin Flegel"
+  },
+  "bugs": {
+    "url": "https://github.com/aflegel/FantasyFlightIcons/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "A webfont containing icons for games such as Edge of the Empire, Star Wars Armada, or Imperial Assault.",
+  "email": "alex.g.flegel@gmail.com",
+  "homepage": "https://github.com/aflegel/FantasyFlightIcons#readme",
+  "keywords": [
+    "icon",
+    "star-wars",
+    "fanstasy-flight"
+  ],
+  "license": "MIT",
+  "name": "sw-rpg-icons",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aflegel/FantasyFlightIcons.git"
+  },
+  "url": "https://github.com/aflegel/FantasyFlightIcons/issues",
+  "version": "1.7.1"
+}
