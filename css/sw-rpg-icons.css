@@ -209,7 +209,10 @@ i.ffi {
 
 .ffi-d8:before {
   content: "\e93f"; }
-
+/*
+.ffi-d8:after {
+  content: "\e940"; }
+*/
 .ffi-d8-outline:before {
   content: "\e940"; }
 

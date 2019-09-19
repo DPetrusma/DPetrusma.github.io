@@ -25,7 +25,7 @@
 }
 */
 body dice {
-	color: #651500;
+	color: #512C7D;
 	display: inline;
 	font-family: genesys;
 	/*font-family: genesys_oneregular;*/
@@ -37,3 +37,33 @@ body dice {
 	top:3px;
 	/*text-transform: uppercase;*/
 }
+body dice:after {
+	font-family: genesys;
+	/*font-family: genesys_oneregular;*/
+	/*font-size: 35px;*/
+	content: "K";
+	top:3px;
+	color: black;
+	/*text-transform: uppercase;*/
+}
+
+.gd{
+	font-family: genesys;
+	position:relative;
+	top:3px;
+	font-style: normal;
+}
+
+.gd-d:before {
+	color: #512C7D;
+	content: "k"; }
+.gd-d:after {
+	color: black;
+	content: "K"; }
+
+.gd-a:before {
+	color: #52B849;
+	content: "k"; }
+.gd-a:after {
+	color: black;
+	content: "K"; }
