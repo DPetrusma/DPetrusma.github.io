@@ -57,6 +57,25 @@ body genesys-symbols {
 	top:3px;
 }
 
+.gdice {
+    font-family: EotE;
+	-webkit-text-stroke-width: 1.5px;
+	-webkit-text-stroke-color: black;
+}
+
+.difficulty {
+    color: #6C2B83;
+}
+.ability {
+    color: #41AD49;
+}
+.challenge {
+    color: #7D1721;
+}
+.proficiency {
+    color: #FDE700;
+}
+
 .gd{
 	font-family: EotE;
 	position:relative;
