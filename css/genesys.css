@@ -25,45 +25,83 @@
 }
 */
 body dice {
-	color: #512C7D;
-	display: inline;
-	font-family: genesys;
+	/*color: #512C7D;*/
+	/*display: inline;*/
+	/*font-family: genesys;*/
 	/*font-family: genesys_oneregular;*/
-	/*font-size: 35px;*/
-	font-weight: normal;
-	margin: 0;
-	padding: 0;
-	position:relative;
-	top:3px;
+	font-size: 20px;
+	/*font-weight: normal;*/
+	/*margin: 0;*/
+	/*padding: 0;*/
+	/*position:relative;*/
+	/*top:3px;*/
 	/*text-transform: uppercase;*/
 }
+body genesys-symbols {
+	font-family: genesys;
+	font-size: 20px;
+	position:relative;
+	top:4px;
+}
+/*
 body dice:after {
 	font-family: genesys;
-	/*font-family: genesys_oneregular;*/
-	/*font-size: 35px;*/
+	font-family: genesys_oneregular;
+	font-size: 35px;
 	content: "K";
 	top:3px;
 	color: black;
-	/*text-transform: uppercase;*/
+	text-transform: uppercase;
 }
+*/
 
 .gd{
 	font-family: genesys;
 	position:relative;
-	top:3px;
+	/*font-size: 20px;*/
+	top:4px;
+	/*top:10%;*/
 	font-style: normal;
 }
 
 .gd-d:before {
-	color: #512C7D;
+	color: #6C2B83;
 	content: "k"; }
 .gd-d:after {
 	color: black;
 	content: "K"; }
 
 .gd-a:before {
-	color: #52B849;
+	color: #41AD49;
 	content: "k"; }
 .gd-a:after {
 	color: black;
 	content: "K"; }
+
+.gd-c:before {
+	color: #7D1721;
+	content: "l"; }
+.gd-c:after {
+	color: black;
+	content: "L"; }
+
+.gd-p:before {
+	color: #FDE700;
+	content: "l"; }
+.gd-p:after {
+	color: black;
+	content: "L"; }
+
+.gd-s:before {
+	color: black;
+	content: "j"; }
+.gd-s:after {
+	color: #000000;
+	content: "J"; }
+
+.gd-b:before {
+	color: #72CDDC;
+	content: "j"; }
+.gd-b:after {
+	color: black;
+	content: "J"; }
