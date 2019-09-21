@@ -1,9 +1,0 @@
-@font-face {
-    font-family: 'GenesysGlyphsAndDice';
-    src: url('fonts/GenesysGlyphsAndDice.eot');
-    src: url('fonts/GenesysGlyphsAndDice.eot?#iefix') format('embedded-opentype'),
-         url('fonts/GenesysGlyphsAndDice.woff2') format('woff2'),
-         url('fonts/GenesysGlyphsAndDice.woff') format('woff'),
-         url('fonts/GenesysGlyphsAndDice.ttf')  format('truetype'),
-         url('fonts/GenesysGlyphsAndDice.svg#GenesysGlyphsAndDice') format('svg');
-}
