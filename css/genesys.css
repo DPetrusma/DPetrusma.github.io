@@ -32,20 +32,6 @@
          url('fonts/MinionPro-Regular.svg#Minion Pro') format('svg');
 }
 
-body dice {
-	/*color: #512C7D;*/
-	/*display: inline;*/
-	/*font-family: genesys;*/
-	/*font-family: genesys_oneregular;*/
-	font-size: 15px;
-	/*font-weight: normal;*/
-	/*margin: 0;*/
-	/*padding: 0;*/
-	/*position:relative;*/
-	/*top:3px;*/
-	/*text-transform: uppercase;*/
-}
-
 body genesys-text {
 	font-family: Minion Pro;
 	font-size: 15px;
@@ -57,12 +43,18 @@ body genesys-symbols {
 	top:3px;
 }
 
-.gdice {
+.setback, .boost, .difficulty, .ability, .challenge, .proficiency {
     font-family: EotE;
 	-webkit-text-stroke-width: 1.5px;
 	-webkit-text-stroke-color: black;
 }
 
+.setback {
+    color: #000000;
+}
+.boost {
+    color: #72CDDC;
+}
 .difficulty {
     color: #6C2B83;
 }
@@ -75,51 +67,3 @@ body genesys-symbols {
 .proficiency {
     color: #FDE700;
 }
-
-.gd{
-	font-family: EotE;
-	position:relative;
-	font-style: normal;
-}
-
-.gd-d:before {
-	color: #6C2B83;
-	content: "d";
-	-webkit-text-stroke-width: 1.5px;
-    -webkit-text-stroke-color: black;
-	}
-
-.gd-a:before {
-	color: #41AD49;
-	content: "d";
-	-webkit-text-stroke-width: 1.5px;
-    -webkit-text-stroke-color: black;
-	}
-
-.gd-c:before {
-	color: #7D1721;
-	content: "c";
-	-webkit-text-stroke-width: 1.5px;
-    -webkit-text-stroke-color: black;
-	}
-
-.gd-p:before {
-	color: #FDE700;
-	content: "c";
-	-webkit-text-stroke-width: 1.5px;
-    -webkit-text-stroke-color: black;
-	}
-
-.gd-s:before {
-	color: #000000;
-	content: "b";
-	-webkit-text-stroke-width: 1.5px;
-    -webkit-text-stroke-color: black;
-	}
-
-.gd-b:before {
-	color: #72CDDC;
-	content: "b";
-	-webkit-text-stroke-width: 1.5px;
-    -webkit-text-stroke-color: black;
-	}
